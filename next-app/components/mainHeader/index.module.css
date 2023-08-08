@@ -1,0 +1,4 @@
+.mainHeader{
+    @apply w-full h-[60px] flex justify-between items-center bg-white pl-[30px] pr-[44px]
+}
+

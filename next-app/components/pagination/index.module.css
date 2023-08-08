@@ -1,0 +1,24 @@
+.pagination{
+    @apply w-full flex items-center justify-end mt-[33px] gap-12 text-sm font-normal font-mulish text-[#9FA2B4] mb-8
+}
+
+.pagination_left {
+    @apply flex gap-2
+}
+
+.pagination_left select{
+    @apply  text-[#4B506D] text-[14px] cursor-pointer bg-transparent 
+}
+
+.pagination_right {
+    @apply flex gap-6
+}
+
+.pagination_btn{
+    @apply flex gap-7
+}
+
+.pagination_btn img{
+    @apply cursor-pointer
+}
+

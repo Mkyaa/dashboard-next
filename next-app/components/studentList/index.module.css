@@ -1,0 +1,87 @@
+.studentBox {
+    @apply w-full min-w-[1110px] h-[85px] flex items-center rounded-lg bg-white px-[14px] text-sm text-black
+}
+
+.studentBox_img {
+    @apply w-[65px] h-[50px] relative
+}
+
+.studentBox_img img {
+    @apply w-full z-[2] h-full bg-gradient-to-b from-[#c4c4c4] to-gray-100 rounded-lg
+}
+
+.gradientOverlay {
+    @apply absolute top-0 left-0 w-[65px] h-[50px]
+}
+
+.studentBox td:nth-child(2) {
+    @apply min-w-[159px] w-[159px] ml-[31px]
+}
+
+.studentBox td:nth-child(3) {
+    @apply min-w-[206px] w-[206px]
+}
+
+.studentBox td:nth-child(4) {
+    @apply  min-w-[150px] w-[150px]
+}
+
+.studentBox td:nth-child(5) {
+    @apply min-w-[200px] w-[200px]
+}
+
+.studentBox td:nth-child(6) {
+    @apply w-[150px] pr-3
+}
+
+.studentBox_action {
+    @apply gap-8 flex items-center justify-center ml-10
+}
+
+.studentBox_actionEdit{
+    @apply gap-6 flex items-center justify-center ml-10
+}
+
+.studentBox_action img,
+.studentBox_actionEdit svg {
+    @apply cursor-pointer 
+}
+
+.studentBox_action img:hover,
+.studentBox_actionEdit svg:hover {
+    @apply opacity-50
+}
+
+.studentBox_actionEdit svg {
+    @apply w-6 h-6
+}
+
+.studentBox td input {
+    @apply h-9 rounded-md border border-[#c4c4c4] px-[10px] text-xs text-[#6c6c6c] outline-none
+}
+
+.studentBox td input:focus {
+    @apply border-orange-dark 
+}
+
+.nameBox {
+    @apply flex flex-col items-center gap-2
+}
+
+.studentBox td input[name="firstName"],
+.studentBox td input[name="lastName"]
+{
+    @apply -ml-8
+}
+
+.studentBox td input[name="phone"]  {
+    @apply w-5/6
+}
+
+.checkEdit{
+    @apply text-[#21bf73] 
+}
+
+.cancelEdit{
+    @apply text-[#ff0000]
+}

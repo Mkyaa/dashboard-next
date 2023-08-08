@@ -1,0 +1,91 @@
+.studentContainer{
+    @apply w-full h-full flex flex-col pb-10 max-w-[1110px] mx-auto
+}
+
+.studentContainer_header{
+    @apply w-full py-3 flex items-center justify-between border-b-[1px] border-solid border-[#E5E5E5]
+}
+
+.studentContainer_header h1{
+    @apply  text-[22px] font-bold
+}
+
+.rightBox{
+    @apply flex gap-6 flex-wrap justify-end
+}
+
+.searchBox{
+    @apply flex items-center relative
+}
+
+.searchBox input{
+    @apply w-[212px] h-[37px] rounded-lg border border-solid border-[#E5E5E5] outline-none px-[10px] text-[14px]
+}
+
+.searchBox input::placeholder{
+    @apply text-[#c4c4c4]
+}
+
+.searchBox input:focus{
+    @apply border-orange-dark
+}
+
+.searchBox img{
+    @apply absolute right-[14px] top-[14px]
+}
+
+.addBtn{
+    @apply w-[199px] h-[44px] rounded-[4px] bg-[#FFB600] text-white text-[14px] flex items-center justify-center cursor-pointer
+}
+
+.studentContainer_table{
+    @apply w-full h-full flex flex-col 
+}
+
+.table_overflow_container{
+    @apply w-full overflow-x-auto 1/2xl:overflow-x-hidden sm:max-w-[calc(100vw-270px)]
+}
+
+.studentContainer_table_header{
+    @apply w-full h-full py-5 inline-block
+}
+
+.studentContainer_table_header tr{
+    @apply w-full flex items-center text-[#acacac] text-[12px] font-semibold ml-[109px]
+}
+
+.studentContainer_table_header tr th{
+    @apply text-left
+}
+
+.studentContainer_table_header tr th:nth-child(1){
+    @apply min-w-[159px] w-[159px]
+}
+
+.studentContainer_table_header tr th:nth-child(2){
+    @apply min-w-[206px] w-[206px]
+}
+
+.studentContainer_table_header tr th:nth-child(3){
+    @apply min-w-[150px] w-[150px]
+}
+
+.studentContainer_table_header tr th:nth-child(4){
+    @apply min-w-[200px] w-[200px]
+}
+
+.studentContainer_table_header tr th:nth-child(5){
+    @apply w-[150px]
+}
+
+.studentContainer_table_body{
+    @apply w-full h-full flex flex-col gap-[10px]
+}
+
+.loadingRow{
+    @apply w-full h-[50px] flex items-center justify-center px-10 
+}
+
+.studentContainer_table_footer{
+    @apply w-full flex justify-end 
+}

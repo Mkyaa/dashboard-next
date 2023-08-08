@@ -1,0 +1,55 @@
+.loaderContainer{
+    @apply bg-white shadow-lg p-10 rounded-2xl flex flex-col items-center justify-center
+}
+
+.signForm{
+    @apply w-full mx-2 sm:mx-0 sm:w-[475px] h-[550px] bg-white rounded-[20px] shadow-form flex flex-col justify-center items-center
+}
+
+.signLogo{
+    @apply text-2xl sm:text-[32px] border-l-[6px] border-solid border-orange-light pl-[10px] font-bold flex items-center leading-[39px] mt-2
+}
+
+.signTitle{
+    @apply text-lg sm:text-[22px] font-semibold mt-10 leading-[27px] 
+}
+
+.signSubtitle{
+    @apply text-xs text-center sm:text-[14px] text-[#6C6C6C] mt-3 mb-5 leading-[17px] 
+}
+
+.signInputContainer{
+    @apply w-full px-3 sm:px-0 sm:w-[415px] h-[71px] flex flex-col justify-between mt-5
+}
+
+.signInputContainer input {
+    @apply w-full h-11 text-base rounded-[4px] border border-solid border-[#E5E5E5] px-3 placeholder:text-xs placeholder:text-[#CDCDCD]
+}
+
+.signInputContainer input:focus{
+    @apply outline-none border-[2px] border-solid  border-orange-light
+}
+
+.signInputContainer label{
+    @apply text-[14px] text-[#6C6C6C] font-medium
+}
+
+.signErrBox{
+    @apply flex justify-between
+}
+
+.signErrBox small{
+    @apply text-[12px] text-red-500
+}
+
+.signButton{
+    @apply w-[96%] mx-auto sm:w-[415px] h-11 rounded-[4px] bg-orange-dark text-white text-[14px] font-medium mt-8
+}
+
+.signForgot{
+    @apply text-[14px] text-[#6C6C6C] mt-6
+}
+
+.signReset{
+    @apply text-[14px] font-medium text-orange-dark
+}

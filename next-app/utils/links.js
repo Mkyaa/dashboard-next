@@ -1,0 +1,29 @@
+// link for sidebar
+export const links = [
+    {
+        title:'Home',
+        path:'/dashboard',
+        icons:'/assets/icons/home.svg'
+    },
+    {
+        title:'Course',
+        icons:'/assets/icons/course.svg'
+    },
+    {
+        title:'Students',
+        path:'/dashboard/students',
+        icons:'/assets/icons/student.svg'
+    },
+    {
+        title:'Payment',
+        icons:'/assets/icons/payment.svg'
+    },
+    {
+        title:'Report',
+        icons:'/assets/icons/report.svg'
+    },
+    {
+        title:'Settings',
+        icons:'/assets/icons/setting.svg'
+    }
+]
